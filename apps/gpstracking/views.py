@@ -6,3 +6,4 @@ from django.http import HttpResponse
 def maptracking(request):
 
     return render(request,"gpstracking/maptracking.html",)
+    # return render(request,"gpstracking/a1.html",)
